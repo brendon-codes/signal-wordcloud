@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+class WordCloud:
+    def __init__(self, width: int | None = None, height: int | None = None) -> None: ...
+
+    def generate_from_frequencies(self, frequencies: dict[str, int]) -> None: ...
